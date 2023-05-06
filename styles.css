@@ -1,0 +1,107 @@
+.navigation_bar {
+  background-color: beige;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.navigation_bar__left_section {
+  color: rgb(128, 146, 146);
+  margin-left: 5rem;
+  margin-bottom: 0.5rem;
+  justify-self: start;
+}
+.navigation_bar__left_section span {
+  padding-right: 2rem;
+  font-size: large;
+}
+.navigation_bar__left_section svg {
+  padding-right: 2rem;
+}
+.navigation_bar__right_section {
+  justify-self: end;
+  margin-right: 5rem;
+  align-items: center;
+}
+.navigation_bar__right_section img {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 2rem;
+}
+
+.body_section {
+  display: flex;
+}
+.body_section__photos {
+  margin-left: 5rem;
+  max-width: 50vh;
+}
+.body_section__photos__main {
+  margin-bottom: 1rem;
+}
+.body_section__photos__main img {
+  max-width: 30rem;
+  max-height: 50%;
+}
+.body_section__photos__sub {
+  margin-left: 10.5rem;
+  max-width: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.body_section__photos__sub img {
+  max-width: 7rem;
+  max-height: 7rem;
+  margin-right: 1rem;
+}
+.body_section__description {
+  position: absolute;
+  right: 6rem;
+  bottom: 8rem;
+}
+.body_section__description__primary_heading {
+  text-transform: uppercase;
+  color: hsl(25, 100%, 64%);
+  font-family: "Comme", sans-serif;
+}
+.body_section__description__secondary_heading {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: "Comme", sans-serif;
+}
+.body_section__description__explanation {
+  font-family: "Comme", sans-serif;
+  line-height: 2rem;
+  color: rgba(61, 62, 63, 0.829);
+  margin-bottom: 1.5rem;
+}
+.body_section__description__price {
+  font-family: "Comme", sans-serif;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.body_section__description__math {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-family: "Comme", sans-serif;
+}
+.body_section__description__math svg {
+  align-self: center;
+  padding: 0 1rem 0 1rem;
+}
+.body_section__description button {
+  border: none;
+  width: 100%;
+  background-color: rgb(255, 187, 0);
+  font-family: "Comme", sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 1rem;
+}/*# sourceMappingURL=styles.css.map */
